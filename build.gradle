@@ -68,6 +68,9 @@ dependencies {
 	implementation 'com.github.vladimir-bukhtoyarov:bucket4j-core:7.6.0'
 	implementation 'com.github.vladimir-bukhtoyarov:bucket4j-jcache:7.6.0'
 	implementation 'org.ehcache:ehcache:3.10.8'
+
+	//Jackson
+	implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.2'
 }
 
 tasks.named('test') {

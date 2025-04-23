@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.34.0](https://github.com/100-hours-a-week/1-team-1danhaebojo-coalarm-be/compare/v1.33.4...v1.34.0) (2025-04-23)
+
+### 🚀 NEW FEATURES
+
+* 코인 예측 api 구현 ([0e56df9](https://github.com/100-hours-a-week/1-team-1danhaebojo-coalarm-be/commit/0e56df9d45bc0c670c76cced5d7b57555c84b0ed))
+
 ## [1.33.4](https://github.com/100-hours-a-week/1-team-1danhaebojo-coalarm-be/compare/v1.33.3...v1.33.4) (2025-04-14)
 
 ### 🐛 BUG FIXES

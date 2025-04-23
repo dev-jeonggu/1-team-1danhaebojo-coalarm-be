@@ -67,6 +67,16 @@ public class CoinRepositoryImpl implements CoinRepository {
                 .fetch();
     }
 
+    @Override
+    public CoinEntity findByName(String coin) {
+        return query.select(coinEntity).from(coinEntity).where(coinEntity.name.eq(coin)).fetchOne();
+    }
+
+    @Override
+    public CoinEntity findBySymbol(String symbol) {
+        return query.select(coinEntity).from(coinEntity).where(coinEntity.symbol.eq(symbol)).fetchOne();
+    }
+
     private BooleanExpression keywordContains(String keyword) {
         if (!StringUtils.hasText(keyword)) return null;
         return coinEntity.name.containsIgnoreCase(keyword)

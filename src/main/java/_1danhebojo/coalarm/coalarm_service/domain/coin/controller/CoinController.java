@@ -1,5 +1,6 @@
 package _1danhebojo.coalarm.coalarm_service.domain.coin.controller;
 
+import _1danhebojo.coalarm.coalarm_service.domain.coin.controller.response.CoinPredictDTO;
 import _1danhebojo.coalarm.coalarm_service.domain.coin.controller.response.CoinWithPriceDTO;
 import _1danhebojo.coalarm.coalarm_service.domain.dashboard.controller.response.CoinDTO;
 import _1danhebojo.coalarm.coalarm_service.domain.coin.service.CoinService;
@@ -65,5 +66,14 @@ public class CoinController {
         return ResponseEntity.ok(BaseResponse.success(
                 coinService.searchCoinWithPrice(keyword, quoteSymbol)
         ));
+    }
+
+    //코인 예측
+    @GetMapping("/predict")
+    public ResponseEntity<BaseResponse<CoinPredictDTO>> predictCoins(
+            @RequestParam(value = "coin") String coin,
+            @RequestParam("days") Integer days
+    ){
+        return ResponseEntity.ok(BaseResponse.success(coinService.predictCoin(coin,days)));
     }
 }
