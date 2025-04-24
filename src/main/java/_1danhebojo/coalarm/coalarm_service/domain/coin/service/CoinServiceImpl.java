@@ -134,7 +134,7 @@ public class CoinServiceImpl implements CoinService {
         String symbol = "KRW-" + coinRepository.findByName(coin).getSymbol();
 
         try {
-            String url = String.format("http://fastapi-service:8000/predict?coin=%s&days=%d", symbol, days);
+            String url = String.format("http://sando.yimtaejong.com/predict?coin=%s&days=%d", symbol, days);
 
             HttpClient client = HttpClient.newHttpClient();
             HttpRequest request = HttpRequest.newBuilder()
