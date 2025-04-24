@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.34.1](https://github.com/100-hours-a-week/1-team-1danhaebojo-coalarm-be/compare/v1.34.0...v1.34.1) (2025-04-24)
+
+### 🐛 BUG FIXES
+
+* 코인 예측 fastapi 서버 엔드포인트 수정 ([b7e5a98](https://github.com/100-hours-a-week/1-team-1danhaebojo-coalarm-be/commit/b7e5a985e7c79a6249fa30aca4a33b9e3c8f09ab))
+
 ## [1.34.0](https://github.com/100-hours-a-week/1-team-1danhaebojo-coalarm-be/compare/v1.33.4...v1.34.0) (2025-04-23)
 
 ### 🚀 NEW FEATURES
