@@ -4,7 +4,7 @@
 <br />
 
 ## 👩🏻‍💻 Developer
-| sando.kang (강산아) | yuni.jeong (정해윤) | mason.park (박민수) | jeonggu.kim (김정현) | leeroy.kim (김동현) |
+| sando.kang<br />(강산아) | yuni.jeong<br />(정해윤) | mason.park<br />(박민수) | jeonggu.kim<br />(김정현) | leeroy.kim<br />(김동현) |
 |:---:|:---:|:---:|:---:|:---:|
 |  <a href="https://github.com/gsandoo"> <img src="https://avatars.githubusercontent.com/gsandoo" width=100px alt="_"/> </a> | <a href="https://github.com/hyoon1129"> <img src="https://avatars.githubusercontent.com/hyoon1129" width=100px alt="_"/> </a> | <a href="https://github.com/pmsu2007"> <img src="https://avatars.githubusercontent.com/pmsu2007" width=100px alt="_"/> </a> | <a href="https://github.com/dev-jeonggu"> <img src="https://avatars.githubusercontent.com/dev-jeonggu" width=100px alt="_"/> </a> | <a href="https://github.com/Dwisgolmog"> <img src="https://avatars.githubusercontent.com/Dwisgolmog" width=100px alt="_"/> </a> |
 | <a href="https://github.com/gsandoo">@gsandoo</a> | <a href="https://github.com/hyoon1129">@hyoon1129</a> | <a href="https://github.com/pmsu2007">@pmsu2007</a> | <a href="https://github.com/dev-jeonggu">@dev-jeonggu</a> | <a href="https://github.com/Dwisgolmog">@Dwisgolmog</a> |
